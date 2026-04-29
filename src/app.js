@@ -37,4 +37,4 @@ app.listen(port, () => {
 //   node app.js
 //
 
-// Trigger CI/CD pipeline...ok
+// Trigger CI/CD pipeline... CICD OK
