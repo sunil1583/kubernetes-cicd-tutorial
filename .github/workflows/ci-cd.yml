@@ -29,7 +29,7 @@ jobs:
       - name: Update GitOps repository
         shell: bash
         env:
-          GIT_TOKEN: ${{ secrets.GITOPS_PAT }}
+          GIT_TOKEN: ${{ secrets.CR_PAT }}
         run: |
           # Configure git credential store
           git config --global credential.helper store
